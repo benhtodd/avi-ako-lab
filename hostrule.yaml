@@ -1,0 +1,22 @@
+apiVersion: ako.vmware.com/v1alpha1
+kind: HostRule
+metadata:
+  name: hackazon-hr
+spec:
+  virtualhost:
+    fqdn: hackazon.tkgsingress.livefire.lab # mandatory
+    enableVirtualHost: true
+    # gslb:
+    #   fqdn: vip1.global.avi.com
+    wafPolicy: System-WAF-Policy
+    tls:
+      sslKeyCertificate:
+        name: tkgs-wildcard-ingress
+        type: ref
+      sslProfile: System-Standard
+      termination: edge
+    analyticsPolicy: # optional
+      fullClientLogs:
+        enabled: true
+        throttle: HIGH
+      logAllHeaders: true
