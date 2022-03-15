@@ -68,7 +68,7 @@ metadata:
 spec:
   ingressClassName: avi-lb
   rules:
-  - host: hackazon.tkgsingress.livefire.lab
+  - host: <youruserid>.tkgsingress.livefire.lab
     http:
       paths:
       - path: /
