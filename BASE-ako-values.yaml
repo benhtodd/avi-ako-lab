@@ -70,7 +70,7 @@ ControllerSettings:
   controllerVersion: '21.1.3' # The controller API version
   cloudName: Default-Cloud   # The configured cloud name on the Avi controller.
   controllerHost: 'avic-03.lab.livefire.dev' # IP address or Hostname of Avi Controller
-  tenantName: <tenant_name_here>   # Name of the tenant where all the AKO objects will be created in AVI.
+  tenantName: <tenant_name_here>   # <miuser00x> Name of the tenant where all the AKO objects will be created in AVI.
 
 nodePortSelector: # Only applicable if serviceType is NodePort
   key: ''
@@ -93,8 +93,8 @@ rbac:
 
 avicredentials:
   username: 'ako-svc'
-  #password: '<password_here>'
-  authtoken:  # Get OAUTH token provided by instructor
+  #password: '<password_here>'  #Not used for the livefire courses
+  authtoken:  '' # Get OAUTH token provided by instructor
   certificateAuthorityData:
 
 

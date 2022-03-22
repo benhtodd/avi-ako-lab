@@ -5,7 +5,7 @@ metadata:
   name: my-host-rule
 spec:
   virtualhost:
-    fqdn: mi01hack.tkgsingress.livefire.lab # mandatory
+    fqdn: <youruserid>.tkgsingress.livefire.lab # mandatory
     enableVirtualHost: true
     # gslb:
     #   fqdn: vip1.global.avi.com
