@@ -8,3 +8,6 @@ clone the git repo
 git clone  https://github.com/benhtodd/avi-ako-lab
 ```
 
+Copy and rename the "BASE-ako-values.yaml" as a backup. 
+
+In the new file look for 
