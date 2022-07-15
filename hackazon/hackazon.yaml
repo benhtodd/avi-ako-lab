@@ -68,7 +68,7 @@ metadata:
 spec:
   ingressClassName: avi-lb
   rules:
-  - host: <youruserid>.tkgsingress.livefire.lab
+  - host: empower22.tkgsingress.livefire.lab  
     http:
       paths:
       - path: /
