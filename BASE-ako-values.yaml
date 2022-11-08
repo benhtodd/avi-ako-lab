@@ -48,7 +48,7 @@ NetworkSettings:
   #   - peer2
   #vipNetworkList: [] # Network information of the VIP network. Multiple networks allowed only for AWS Cloud.
   vipNetworkList:
-   - networkName: tkgs-avi-vip
+   - networkName: tkgs-avi-vip-mori
   #    cidr: 100.1.1.0/24
 
 ### This section outlines all the knobs  used to control Layer 7 loadbalancing settings in AKO.
